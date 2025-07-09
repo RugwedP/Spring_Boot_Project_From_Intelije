@@ -17,7 +17,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
 
 
-    private  int anotherl;
+    private int studetn;
+
+    private String myUsername;
+
 
     @Autowired
     private StudentService service;
